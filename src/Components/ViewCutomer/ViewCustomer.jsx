@@ -6,7 +6,7 @@ import './ViewCustomer.css'
 function ViewCustomer() {
     const [cus, setcus] = useState([])
     const [modal, setmodal] = useState(false)
-    function abc(Cid) {
+    function add(Cid) {
         localStorage.setItem('id', JSON.stringify(Cid))
     }
     useEffect(() => {
@@ -16,7 +16,7 @@ function ViewCustomer() {
     }, [])
 
     function del(id) {
-        var proceed = window.confirm("This will delete all products belong to the customer.")
+        var proceed = window.confirm("This will delete all products belonging to the customer.")
         if (proceed) {
             axios.delete(`https://localhost:7077/api/webapi/deletecustomer?id=${id}`)
             window.location.reload();
@@ -51,7 +51,7 @@ function ViewCustomer() {
                                             <td className='tb3' style={{ paddingLeft: "48px" }}>{obj.Cname}</td>
                                             <td className='tb4' style={{ paddingLeft: "50px" }}>{obj.Caddress}</td>
                                             <td className='tb5' style={{ paddingLeft: "40px" }}>
-                                                <a className='btn btn-primary' href='/viewproduct' onClick={() => abc(obj.Cid)}>View/Add Products</a>
+                                                <a className='btn btn-primary' href='/viewproduct' onClick={() => add(obj.Cid)}>View/Add Products</a>
                                                 <button className='btn btn-danger delvc' onClick={() => { del(obj.Cid) }}>Delete</button>
                                             </td>
                                         </tr>

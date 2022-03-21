@@ -10,7 +10,7 @@ function AddCustomer({ closemodal }) {
                 Cname: Cname,
                 Caddress: Caddress
             })
-        window.location.replace('/')
+        window.location.reload();
     }
 
     return (
