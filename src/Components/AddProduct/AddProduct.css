@@ -1,0 +1,47 @@
+.fcap {
+    margin-right: 40px;
+    color: (40, 44, 52);
+    border-radius: 15px 50px;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 200px;
+    height: 15px;
+}
+
+.ap {
+    color: aliceblue;
+}
+
+.buttonap {
+    margin-left: 26%;
+    margin-top: 33px;
+    width: 200px;
+}
+
+.closeap {
+    float: left;
+    margin-top: 33px;
+    width: 200px;
+}
+
+.tempdiv {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: grey;
+    height: 1px;
+    width: 100%;
+}
+.headingap{
+    display: flex;
+    justify-content: center;
+    color: rgb(34, 140, 233);
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.cap{
+    border: 2px solid aliceblue;
+    height: 200px;
+    border-radius: 25px;
+    width: 105%;
+}

@@ -1,0 +1,47 @@
+.thvp1, .tbvp1 {
+    width: 10%;
+}
+
+.thvp2, .tbvp2 {
+    width: 15%;
+}
+
+.thvp3, .tbvp3 {
+    width: 20%;
+}
+
+.thvp4, .tbvp4 {
+    width: 20%;
+}
+
+.thvp5, .tbvp5 {
+    width: 20%;
+}
+
+.vp {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.deletevp{
+    margin-left: 15px;
+}
+.headingvp{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin-right: 80px;
+}
+.buttonvp{
+    float: right;
+    margin-top: 150px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.homevp{
+    margin-left: 39%;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}

@@ -1,0 +1,43 @@
+.th1, .tb1 {
+    width: 10%;
+}
+
+.th2, .tb2 {
+    width: 15%;
+}
+
+.th3, .tb3 {
+    width: 20%;
+}
+
+.th4, .tb4 {
+    width: 20%;
+}
+
+.th5, .tb5 {
+    width: 35%;
+}
+
+.buttonac {
+    margin-top: 95px;
+    float: right;
+    margin-right: 10px;
+}
+
+.headingvc {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    margin-right: 80px;
+}
+
+.vt {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.delvc {
+    margin-left: 20px;
+}
